@@ -16,7 +16,7 @@ img{
 }
 
 section{
-    /* padding: 100px 0; */
+    padding: 100px 0;
 }
 
 
@@ -134,4 +134,65 @@ header{
     font-size: 18px;
     outline: none;
     border: none;
+}
+
+
+/* =============================================
+-----------service section-----------------------
+================================================ */
+
+#service{
+    background: url(../img/home-bg.png) center; 
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section_title p{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.section_title h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.inner_service{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.child_service{
+    flex-basis: 30%;
+    background: lightgray;
+    padding: 40px 20px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+
+.child_service:hover{
+    transform: scale(1.03);
+}
+
+.child_service .service_icon{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.child_service h2{
+    margin: 10px 0px;
+}
+
+.child_service p{
+    font-size: 17px;
+    line-height: 25px;
 }
