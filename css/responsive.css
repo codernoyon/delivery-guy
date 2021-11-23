@@ -1,0 +1,40 @@
+@media  screen and (max-width: 770px){
+    .nav_links{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        align-items: flex-start;
+        transition: 0;
+        background: #fff;
+    }
+
+    .logo{
+        width: 140px;
+    }
+
+    .nav_links li{
+        width: 100%;
+    }
+
+    .nav_links li a{
+        display: block;
+        width: 100%;
+        text-align: left; 
+        border-radius: 0;
+    } 
+
+    .nav_links li a:hover{
+        background: orange;
+    }
+
+    .menubar{
+        position: absolute;
+        right: 10%;
+        top: 25%;
+        font-size: 20px;
+        display: block;
+    }
+}

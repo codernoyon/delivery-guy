@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* =============================================
+-----------Header section-----------------------
+================================================ */
+
+header{
+    background: white;
+    box-shadow: 3px 3px 4px lightgray;
+    position: fixed;
+    width: 100%;
+
+}
+
+.menubar{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right
+}
+
+.nav_links li a{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0;
+    color: black;
+    transition: .3s;
+    border-radius: 25px;
+}
+
+.nav_links li a:hover{
+    background: orange;
+    color: #fff;
+}
