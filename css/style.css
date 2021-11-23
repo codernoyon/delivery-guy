@@ -15,6 +15,10 @@ img{
     width: 100%;
 }
 
+section{
+    /* padding: 100px 0; */
+}
+
 
 /* =============================================
 -----------Header section-----------------------
@@ -64,4 +68,70 @@ header{
 .nav_links li a:hover{
     background: orange;
     color: #fff;
+}
+
+
+/* =============================================
+-----------Home section-----------------------
+================================================ */
+
+#home{
+    background: url(../img/home-bg.png) no-repeat center;
+}
+
+.inner_home{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+}
+
+.child_home{
+    flex-basis: 48%;
+}
+
+
+.child_home h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: orange;
+    margin-bottom: 15px;
+
+}
+
+.child_home h1{
+    font-size: 45px;
+    color: #244361;
+    margin-bottom: 20px
+}
+
+.product_search{
+    padding: 8px;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.product_search input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    font-size: 18px;
+}
+
+.product_search input[type="submit"]{
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
 }

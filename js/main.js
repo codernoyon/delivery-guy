@@ -5,7 +5,7 @@ navLinks.style.top = "-450px";
 
 menuBar.onclick = function(){
     if (navLinks.style.top == "-450px"){
-        navLinks.style.top = "65px";
+        navLinks.style.top = "58px";
     }
     else{
         navLinks.style.top = "-450px";

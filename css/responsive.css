@@ -37,4 +37,29 @@
         font-size: 20px;
         display: block;
     }
+
+    /* =============================================
+    -----------Home section-----------------------
+    ================================================ */
+
+    .child_home{
+        flex-basis: 100%;
+        margin: 40px 0;
+    }
+    .inner_home{
+        align-content: center;
+    }
+
+    .child_home h3{
+        font-size: 20px;
+    }
+
+    .child_home h1{
+        font-size: 25px;
+    }
+    .product_search input[type="submit"]{
+        width: 180px
+    }
+
+
 }
