@@ -189,7 +189,7 @@ header{
 .child_service{
     flex-basis: 29%;
     background: linear-gradient(rgba(255, 255, 255, 0.719), rgba(255, 255, 255, 0.514));
-    padding: 40px 20px;
+    padding: 60px 20px;
     border-radius: 10px;
     transition: .3s;
     box-shadow: 0px 0px 4px 0px lightgray;
@@ -204,7 +204,7 @@ header{
 }
 
 .child_service .service_icon{
-    width: 150px;
+    width: 100px;
     margin: 0 auto;
 }
 
