@@ -17,6 +17,7 @@
 
     .nav_links li{
         width: 100%;
+        padding: 0 20px;
     }
 
     .nav_links li a{
@@ -88,6 +89,17 @@
         margin: 0 auto;
         width: 250px;
         padding: 20px 20px;
+    }
+
+    /* =============================================
+    -----------login page----------------------
+    ================================================ */
+    .child_login{
+        flex-basis: 100%;
+    }
+
+    .child_login img{
+        display: none;
     }
 
 
