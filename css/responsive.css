@@ -86,6 +86,8 @@
 
     .pricing_card{
         margin: 0 auto;
+        width: 250px;
+        padding: 20px 20px;
     }
 
 
