@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -29,11 +33,13 @@ header{
     box-shadow: 3px 3px 4px lightgray;
     position: fixed;
     width: 100%;
+    z-index: 5;
 
 }
 
 .menubar{
     display: none;
+    
 }
 
 .navbar{
@@ -53,7 +59,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: right
+    text-align: right;
 }
 
 .nav_links li a{
@@ -76,7 +82,9 @@ header{
 ================================================ */
 
 #home{
-    background: url(../img/home-bg.png) no-repeat center;
+    /* background: url(../img/home-bg.png) no-repeat center; */
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #F9ECF1 100%);
+    padding: 0px;
 }
 
 .inner_home{
@@ -110,7 +118,7 @@ header{
 }
 
 .product_search{
-    padding: 8px;
+    padding: 5px 5px;
     display: flex;
     border-radius: 25px;
     justify-content: space-between;
@@ -134,6 +142,13 @@ header{
     font-size: 18px;
     outline: none;
     border: none;
+    cursor: pointer;
+
+}
+
+.product_search input[type="submit"]:hover{
+    background: lightseagreen;
+
 }
 
 
@@ -142,7 +157,8 @@ header{
 ================================================ */
 
 #service{
-    background: url(../img/home-bg.png) center; 
+    /* background: url(../img/home-bg.png) center;  */
+    background-image: linear-gradient(to top, #F9ECF1 0%, #F3e7e9 100%);
 }
 
 .section_title{
@@ -171,16 +187,20 @@ header{
 }
 
 .child_service{
-    flex-basis: 30%;
-    background: lightgray;
+    flex-basis: 29%;
+    background: linear-gradient(rgba(255, 255, 255, 0.719), rgba(255, 255, 255, 0.514));
     padding: 40px 20px;
     border-radius: 10px;
     transition: .3s;
+    box-shadow: 0px 0px 4px 0px lightgray;
 }
+
+
 
 
 .child_service:hover{
     transform: scale(1.03);
+    box-shadow: 0px 0px 8px 0px lightgray;
 }
 
 .child_service .service_icon{

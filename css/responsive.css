@@ -33,9 +33,14 @@
     .menubar{
         position: absolute;
         right: 10%;
-        top: 25%;
+        top: 19%;
         font-size: 20px;
         display: block;
+        cursor: pointer;
+        padding: 5px 10px;
+        border: 1px solid lightgray;
+        border-radius: 2px;
+
     }
 
     /* =============================================
@@ -60,6 +65,7 @@
     .product_search input[type="submit"]{
         width: 180px
     }
+
 
     /* =============================================
     -----------service section-----------------------
