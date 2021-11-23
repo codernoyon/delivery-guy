@@ -216,3 +216,61 @@ header{
     font-size: 17px;
     line-height: 25px;
 }
+
+
+/* =============================================
+-----------pricing section-----------------------
+================================================ */
+
+
+#pricing{
+    background-image: linear-gradient(to top, #A7E2E8 0%, #F8ebf0 100%);
+}
+
+.inner_pricing{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child_pricing{
+    flex-basis: 45%;
+}
+
+.pricing_card{
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5));
+    width: 350px;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px lightgray;
+}
+
+.pricing_card h1{
+    font-size: 40px;
+    margin: 60px 0px;
+}
+
+.pricing_card ul{
+    margin: 30px 0px;
+}
+
+.pricing_card ul li{
+    margin: 10px 0px;
+}
+
+.price_btn{
+    background: orange;
+    padding: 10px 25px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px
+}
+
+.price_btn:hover{
+    background: lightseagreen;
+}
