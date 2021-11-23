@@ -25,7 +25,12 @@
         width: 100%;
         text-align: left; 
         border-radius: 0;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.247);
     } 
+
+    .nav_links li:last-child a{
+        border-bottom: none;
+    }
 
     .nav_links li a:hover{
         background: orange;
