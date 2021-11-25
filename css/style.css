@@ -410,7 +410,7 @@ header{
     font-size: 30px;
 }
 
-.child_about p{
+.child_about p{                         
     font-size: 18px;
     margin: 10px 0px;
     color: rgba(0, 0, 0, 0.651);
@@ -423,6 +423,78 @@ header{
     font-size: 18px;
     color: #fff;
     border-radius: 25px;
+}
+
+
+/* =============================================
+-----------meet our team section----------------
+================================================ */
+
+
+#meet_ourteam{
+    background-image: linear-gradient(to top, #757DD6 0%, #578cba 100%);
+}
+
+#meet_ourteam .section_title h2{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+#meet_ourteam .section_title h2 span{
+    color: rgba(255, 68, 0, 0.808);
+}
+
+.inner_team{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.child_team{
+    flex-basis: 25%;
+    padding: 30px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.team_image{
+    width: 200px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.child_team h3{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.562);
+    margin-bottom: 10px;
+}
+
+
+.child_team .social_links{
+    background: orange;
+    color: #ffff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.child_team .social_links:hover{
+    background: lightseagreen;
+}
+
+.child_team .social_links i{
+    transition: .3s;
+    border-radius: 50%;
+}
+
+.child_team .social_links i:hover{
+    color: #000;
 }
 
 
