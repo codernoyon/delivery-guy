@@ -346,6 +346,10 @@ header{
     
 }
 
+.login_box a{
+    color: rgb(4, 104, 255)
+}
+
 .login_box input[type="submit"]:hover{
     background: lightseagreen;
 }
@@ -426,6 +430,9 @@ header{
 }
 .input_fild:nth-child(9) span{
     margin-right: 5px;
+}
+.input_fild:nth-child(9) a{
+    color: rgb(4, 104, 255);
 }
 
 select{
