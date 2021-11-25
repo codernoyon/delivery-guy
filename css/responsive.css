@@ -27,8 +27,8 @@
         border-radius: 0;
         border-bottom: 1px solid rgba(128, 128, 128, 0.247);
     } 
-
     .nav_links li:last-child a{
+
         border-bottom: none;
     }
 
@@ -107,6 +107,28 @@
         display: none;
     }
 
+    /* =============================================
+    -----------signup page-----------------------
+    ================================================ */
 
+    .signup_box{
+        margin: 10px;
+        padding: 20px 30px;
+        width: 97%;
+    }
+
+    .signup_box h3{
+        font-size: 25px;
+    }
+
+    .signup_area .section_title p{
+        font-size: 15px;
+    }
+
+    .signup_area .section_title h2{
+        font-size: 25px;
+   }
+   
+   
 
 }
