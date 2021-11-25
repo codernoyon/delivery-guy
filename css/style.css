@@ -23,6 +23,16 @@ section{
     padding: 100px 0;
 }
 
+.btn{
+    background: orange;
+    border: 1px solid orange;
+}
+
+.btn:hover{
+    background: lightseagreen;
+
+}
+
 
 /* =============================================
 -----------Header section-----------------------
@@ -372,6 +382,49 @@ header{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.493)
 }
+
+
+
+/* =============================================
+-----------about  section-----------------------
+================================================ */
+
+#about{
+    background: linear-gradient(to top, #568AB9 0%, #75b8c8 100%);
+}
+
+.inner_about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child_about{
+    flex-basis: 45%;
+}
+
+.child_about h3{
+    font-size: 30px;
+}
+
+.child_about p{
+    font-size: 18px;
+    margin: 10px 0px;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.readmore_btn{
+    background: orange;
+    padding: 10px 25px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 25px;
+}
+
 
 /* =============================================
 -----------login Page-----------------------
