@@ -281,6 +281,97 @@ header{
 }
 
 
+/* =============================================
+-----------Client section-----------------------
+================================================ */
+
+#clients{
+    background: linear-gradient(to top, #74B7C7 0%, #A9e2e8 100%);
+}
+
+.inner_client{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.registered_clients{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.client_item{
+    flex-basis: 23%;
+    background: #fdfdfd;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.client_item .item_icon{
+    font-size: 50px;
+    color: lightgray;
+}
+
+.client_item h2{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.534)
+}
+
+.client_item p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.534)
+
+}
+
+.company_logos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo_item{
+    flex-basis: 15%;
+    height: 163px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child_testi{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 45%;
+    align-items: center;
+    background: #fff;
+    border-radius: 100px;
+    padding: 10px;
+    
+}
+
+.child_testi img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.child_testi p{
+    width: 70%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.493)
+}
 
 /* =============================================
 -----------login Page-----------------------
