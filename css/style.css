@@ -431,6 +431,7 @@ header{
     font-size: 18px;
     margin: 10px 0px;
     color: rgba(0, 0, 0, 0.651);
+    line-height: 25px;
 }
 
 .readmore_btn{
