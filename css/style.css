@@ -459,7 +459,7 @@ header{
 }
 
 #meet_ourteam .section_title h2 span{
-    color: rgba(255, 68, 0, 0.808);
+    color:rgb(255, 145, 0);
 }
 
 .inner_team{
@@ -531,7 +531,7 @@ header{
 }
 
 .contact_title h2 span{
-    color: rgba(255, 68, 0, 0.692);
+    color:rgb(255, 145, 0);
 }
 
 .inner_contact{
