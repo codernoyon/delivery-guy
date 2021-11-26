@@ -34,6 +34,19 @@ section{
 }
 
 
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(255, 163, 25) , rgb(255, 230, 7));
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fdfdfd;
+}
+
 /* =============================================
 -----------Header section-----------------------
 ================================================ */
@@ -202,7 +215,8 @@ header{
     padding: 60px 20px;
     border-radius: 10px;
     transition: .3s;
-    box-shadow: 0px 0px 4px 0px lightgray;
+    box-shadow: 0px 0px 8px 1px lightgray;
+    border: 1px solid rgba(255, 166, 0, 0);
 }
 
 
@@ -211,6 +225,7 @@ header{
 .child_service:hover{
     transform: scale(1.03);
     box-shadow: 0px 0px 8px 0px lightgray;
+    border: 1px solid orange;
 }
 
 .child_service .service_icon{
@@ -258,10 +273,12 @@ header{
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0px lightgray;
     transition: .3s;
+    border: 1px solid rgba(255, 166, 0, 0);
 }
 
 .pricing_card:hover{
     transform: scale(1.03);
+    border: 1px solid orange;
 }
 
 .pricing_card h1{
@@ -596,6 +613,10 @@ footer{
     margin-bottom: 10px;
 }
 
+.child_footer p{
+    line-height: 25px;
+}
+
 .child_footer ul li a{
     color: #fff;
 }
@@ -634,7 +655,7 @@ footer{
 .footer_social_links li a:hover{
     background: #fff;
     color: black;
-    text-decoration: none;
+    text-decoration: none !important;
 
 }
 
